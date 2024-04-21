@@ -44,10 +44,14 @@ These scripts and configs are not intended for public replication but serve as a
   - Brush wipe not yet implemented in the config.
 
 ### Sensors
-- **Ultra Fine Partical(UFP) Sensor**: Detect dust and other fine particals.
+- **Ultra Fine Partical(UFP) Sensor**: Detect dust and other fine particals in the chamber.
   - AITRIP SDS011.
   - Detection ranges: 0.3-2.5 microns & 2.5-10.0 microns.
+  - Polled with `python3 ufp_check.py` for now.
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/2cec0a13-1a85-48d9-aeb3-0982386c0a87)
+
+- **Volatile Organic Compound(VOC) Sensor**: Detect VOCs in the chamber.
+  - SGP40. Not yet wired up.
 
 
 ### Misc Mods
@@ -93,6 +97,10 @@ These scripts and configs are not intended for public replication but serve as a
     - Handling Z this way caused random problems so I have that handled in the macro when it turns the nozzle back on.
 - **wipe_toolhead_pos.sh**: Purge `toolhead_position.txt` contents.
   - Just minsor security considering shell command access is risky.
+- **ufp_check.py**: Get the UFP sensor data.
+  - Still WIP since there's no native way to add this data into mainsail. Will likely build a Klipper-Screen replacement.
+![image](https://github.com/0xdreadnaught/v24/assets/983663/598c0297-4c00-45eb-9efd-e8cbdd2782bd)
+
 
 ## Warning
 Proceed with caution: Implementing configurations or scripts from this repository should be done at your own risk, with a fire extinguisher readily available.
