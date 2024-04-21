@@ -19,22 +19,50 @@ These scripts and configs are not intended for public replication but serve as a
 
 ### Fans Configuration
 - **Stepper Driver Cooling**: Employs a 5010 5V blower to cool the Octopus Pro stepper drivers.
+![image](https://github.com/0xdreadnaught/v24/assets/983663/855f7938-c898-4b6a-a798-d95683b44ec9)
+
 - **Nevermore V6**: A carbon filter air purification system (installation pending).
+![image](https://github.com/0xdreadnaught/v24/assets/983663/1faf9b0b-0e58-40ff-bdf5-45fdc543c81c)
+
 - **Chamber Vortex**: An ongoing project to install dual 5010 5V blowers, aiming to establish a temperature-controlled chamber environment.
+![image](https://github.com/0xdreadnaught/v24/assets/983663/f0102abf-6125-4458-b997-4bfdd384882c)
 
 ### Macros
-- **Print Start**: Custom `print_start` macro optimized to mitigate initial extrusion mishaps:
-  - Initiates with a small "poop" extrusion at coordinates (5,5,0) to ensure a clean start.
-  - Automatically "kicks" this extrusion to the left into a designated bucket to prevent fan interference and print defects.
-
+- **Print Start**: Modified better print_start macro.
+  - Gets bed/nozzle/chamber temps and max X,Y ranges.
+  - Enbles BTT filament sensor's encoder (off on boot with delayed gcode).
+  - Enables BTT filament sensor's switch (off on boot with delayed gcode).
+  - Full XYZ home.
+  - Chamber soak if needed.
+  - Quad_Gantry_Level if needed.
+  - Stable_Z_Home to ensure z-offset accuracy.
+    - Checks z-offset until it stops deviating. This helps ensure the bed has fully expanded from the heat.
+  - Adaptive bed mesh.
+    - Margin 5 seems to work well. Slicer has range set to build dimensions.
+  - Move to corner and heat up nozzle to target temp
+  - PRIMING
+  - CLEAN
+- **PRIMING**: Purge poop.
+  - CLEAN.
+  - Create poop blob.
+  - Wipe nozzle off to the right.
+  - Kick poop off to the left into the bucket.
+  - CLEAN.
+- **CLEAN**: Poop wipe.
+  - Wipe nozzle a little.
+    
 ### Scripts
-- **restore_toolhead_pos.sh**: Script that restores the toolhead position using `/tmp/toolhead_position.txt`, ensuring accurate placement post-pause or interruption. This script executes moves in a sequence that prioritizes the mechanical integrity of the print and printer.
-
-## Usage
-This repository is intended for backup purposes; adjustments may be necessary for alignment with your specific Klipper setup and printer configuration. Review and modify paths and settings cautiously.
-
-## Contributions
-While not designed for direct use, contributions or discussions on improvements are welcome! Feel free to fork, submit pull requests, or open issues if you have enhancements or corrections to suggest.
+- **save_toolhead_pos.sh**: Save the current XYZ location for the PAUSE macro.
+  - Ensure `/tmp/toolhead_position.txt` exists.
+  - echo args $1-$3, X,Y,Z to `toolhead_position.txt`.
+    - The need for this arose from Klipper not wanting to pass custom variables between macros and I wanted a safer RESUME path.
+- **restore_toolhead_pos.sh**: Move the toolhead back to the original position.
+  - Gets the X,Y,Z from `toolhead_position.txt`.
+  - Sends `G90` to the printer's MCU socket file, `/tmp/printer/mcu_socket` for me, somtimes it's `/tmp/printer`.
+  - Sends the X, then Y moves.
+    - Handling Z this way caused random problems so I have that handled in the macro when it turns the nozzle back on.
+- **wipe_toolhead_pos.sh**: Purge `toolhead_position.txt` contents.
+  - Just minsor security considering shell command access is risky.
 
 ## Warning
 Proceed with caution: Implementing configurations or scripts from this repository should be done at your own risk, with a fire extinguisher readily available.
