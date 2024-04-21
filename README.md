@@ -17,7 +17,7 @@ These scripts and configs are not intended for public replication but serve as a
 
 ## Key Components
 
-### Fans Configuration
+### Fans
 - **Stepper Driver Cooling**: Employs a 5010 5V blower to cool the Octopus Pro stepper drivers.
   - [@SimplifiedLife](https://www.printables.com/@SimplifiedLife)'s shroud https://www.printables.com/model/494141-ultra-cool-btt-octopus-stepper-driver-fan-duct
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/855f7938-c898-4b6a-a798-d95683b44ec9)
@@ -31,6 +31,13 @@ These scripts and configs are not intended for public replication but serve as a
   - My design, `stls/vortex_blowers_l_r.stl`, use supports.
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/9c2ff0d9-7e10-4594-9d81-2052e0d671e6)
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/f0102abf-6125-4458-b997-4bfdd384882c)
+
+### Buckets
+- **Poop Bucket**: Catches the purge blobs.
+  - From [@Sarge013](https://www.printables.com/@Sarge013)'s imodel https://www.printables.com/model/380486-voron-prime-pellet-bucket
+- **Dingleberry Bucket**: Catches leaking filament and wipes against a brush.
+  - From [@FunFunBoy](https://www.printables.com/@FunFunBoy)'s imodel https://www.printables.com/model/201999-nozzle-scrubber-with-a-little-bucket-for-voron-24
+  - Brush wipe not yet implemented in the config.
 
 ### Macros
 - **Print Start**: Modified better print_start macro.
