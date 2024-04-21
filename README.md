@@ -19,6 +19,7 @@ These scripts and configs are not intended for public replication but serve as a
 
 ### Fans Configuration
 - **Stepper Driver Cooling**: Employs a 5010 5V blower to cool the Octopus Pro stepper drivers.
+  - [@SimplifiedLife](https://www.printables.com/@SimplifiedLife)'s shroud https://www.printables.com/model/494141-ultra-cool-btt-octopus-stepper-driver-fan-duct
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/855f7938-c898-4b6a-a798-d95683b44ec9)
 
 - **Nevermore V6**: A carbon filter air purification system (installation pending).
