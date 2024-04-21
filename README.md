@@ -61,7 +61,9 @@ These scripts and configs are not intended for public replication but serve as a
 
 - **Rock and Roll**: Easier electronics access.
 
-- **Lilith Handles**: Just the 
+- **Lilith Handles**: Just the normal Voron PC tabs with Lilith glued on. Loctite 480 works fantastic for filament to metal/glass/filaments.
+![image](https://github.com/0xdreadnaught/v24/assets/983663/414df465-0397-4d25-ad32-556a499492f3)
+![image](https://github.com/0xdreadnaught/v24/assets/983663/2d18f4ba-9826-4b9c-b18d-13a54791771d)
 
 
 ### Macros
