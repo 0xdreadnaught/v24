@@ -45,6 +45,7 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
 - **Chamber Vortex**: An ongoing project to install custom activated charcoal/HEPA filtration.
   - My "design", `stls/vortex_blowers_l_r.stl`, use supports.
     - The mount is a remix of [@Sarge013](https://www.printables.com/@Sarge013)'s poop bucket mount.
+    - May need to move it a tad further away, 2mil plate clearance currently. We'll see if it melts during ABS/ASA prints.
 
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/9c2ff0d9-7e10-4594-9d81-2052e0d671e6)
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/f0102abf-6125-4458-b997-4bfdd384882c)
