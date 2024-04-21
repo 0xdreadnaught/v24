@@ -38,6 +38,7 @@ These scripts and configs are not intended for public replication but serve as a
   - Quad_Gantry_Level if needed.
   - Stable_Z_Home to ensure z-offset accuracy.
     - Checks z-offset until it stops deviating. This helps ensure the bed has fully expanded from the heat.
+    - From [@matthewlloyd](https://github.com/matthewlloyd)'s project: https://github.com/matthewlloyd/Klipper-Stable-Z-Home
   - Adaptive bed mesh.
     - Margin 5 seems to work well. Slicer has range set to build dimensions.
   - Move to corner and heat up nozzle to target temp
