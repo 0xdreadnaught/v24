@@ -27,7 +27,7 @@ These scripts and configs are not intended for public replication but serve as a
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/1faf9b0b-0e58-40ff-bdf5-45fdc543c81c)
 
 - **Chamber Vortex**: An ongoing project to install dual 5010 5V blowers for thorough chamber circulation.
-  - HEPA and additional charcoal filtration is planned for late.r Likely in a remote "pod".
+  - HEPA and additional charcoal filtration is planned for later. Likely in a remote "pod".
   - My design, `stls/vortex_blowers_l_r.stl`, use supports.
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/9c2ff0d9-7e10-4594-9d81-2052e0d671e6)
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/f0102abf-6125-4458-b997-4bfdd384882c)
