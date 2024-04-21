@@ -102,9 +102,9 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
   ![image](https://github.com/0xdreadnaught/v24/assets/983663/2d18f4ba-9826-4b9c-b18d-13a54791771d)
 
 - **SB LEDs**: StealthBurner LED NeoPixel support.
-- [@nemgrea](https://github.com/nemgrea)'s https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Firmware/stealthburner_leds.cfg
+  - [@nemgrea](https://github.com/nemgrea)'s https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Firmware/stealthburner_leds.cfg
 
-  ![image](https://github.com/0xdreadnaught/v24/assets/983663/7d0d1b6b-50f0-49c7-8575-f0ef653cae15)
+    ![image](https://github.com/0xdreadnaught/v24/assets/983663/7d0d1b6b-50f0-49c7-8575-f0ef653cae15)
 
 
 ### Macros
