@@ -23,6 +23,7 @@ These scripts and configs are not intended for public replication but serve as a
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/855f7938-c898-4b6a-a798-d95683b44ec9)
 
 - **Nevermore V6**: A carbon filter air purification system (installation pending).
+  - [@SimplifiedLife](https://github.com/nevermore3d)'s infamous filter https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/1faf9b0b-0e58-40ff-bdf5-45fdc543c81c)
 
 - **Chamber Vortex**: An ongoing project to install dual 5010 5V blowers for thorough chamber circulation.
