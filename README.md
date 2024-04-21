@@ -38,10 +38,14 @@ These scripts and configs are not intended for public replication but serve as a
   - Modified with a cable channel and SBC cutout to allow the UFP sensor to run under it. It was that or builr a cable for it.
     - STL not yet added to `stls/`.
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/d6117291-e1e7-4556-9142-612684c185e6)
+![image](https://github.com/0xdreadnaught/v24/assets/983663/f66c7da4-656d-44da-ba4a-59d506981e7a)
+
 
 - **Dingleberry Bucket**: Catches leaking filament and wipes against a brush.
   - From [@FunFunBoy](https://www.printables.com/@FunFunBoy)'s model https://www.printables.com/model/201999-nozzle-scrubber-with-a-little-bucket-for-voron-24
   - Brush wipe not yet implemented in the config.
+![image](https://github.com/0xdreadnaught/v24/assets/983663/36bb808e-5dcd-4383-9565-0957c53075a6)
+
 
 ### Sensors
 - **Ultra Fine Partical(UFP) Sensor**: Detect dust and other fine particals in the chamber.
