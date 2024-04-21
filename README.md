@@ -63,7 +63,7 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
   - From [@FunFunBoy](https://www.printables.com/@FunFunBoy)'s model https://www.printables.com/model/201999-nozzle-scrubber-with-a-little-bucket-for-voron-24
   - Brush wipe not yet implemented in the config.
 
-    ![image](https://github.com/0xdreadnaught/v24/assets/983663/36bb808e-5dcd-4383-9565-0957c53075a6)
+    ![image](https://github.com/0xdreadnaught/v24/assets/983663/f04e88dd-ce80-43f7-a9d1-00ca95408fe7)
 
 
 ### Sensors
