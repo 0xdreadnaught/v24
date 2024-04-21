@@ -24,7 +24,8 @@ These scripts and configs are not intended for public replication but serve as a
 - **Nevermore V6**: A carbon filter air purification system (installation pending).
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/1faf9b0b-0e58-40ff-bdf5-45fdc543c81c)
 
-- **Chamber Vortex**: An ongoing project to install dual 5010 5V blowers, aiming to establish a temperature-controlled chamber environment.
+- **Chamber Vortex**: An ongoing project to install dual 5010 5V blowers for thorough chamber circulation.
+  - HEPA and additional charcoal filtration is planned for late.r Likely in a remote "pod".
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/f0102abf-6125-4458-b997-4bfdd384882c)
 
 ### Macros
