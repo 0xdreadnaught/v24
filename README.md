@@ -21,8 +21,11 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
 ### Fans
 - **Stepper Driver Cooling**: Employs a 5010 5V blower to cool the Octopus Pro stepper drivers.
   - [@SimplifiedLife](https://www.printables.com/@SimplifiedLife)'s shroud https://www.printables.com/model/494141-ultra-cool-btt-octopus-stepper-driver-fan-duct
+    - I did have to cut off the last driver segment because it was colliding with the fuse. It has no impact on performance.
 
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/855f7938-c898-4b6a-a798-d95683b44ec9)
+    ![image](https://github.com/0xdreadnaught/v24/assets/983663/fe37f0b9-4cab-47a8-aa82-367bcb3dd69e)
+
     
   - Engaged drivers at 27.5C ambient, fully soaked:
   
