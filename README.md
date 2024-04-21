@@ -35,9 +35,26 @@ These scripts and configs are not intended for public replication but serve as a
 ### Buckets
 - **Poop Bucket**: Catches the purge blobs.
   - From [@Sarge013](https://www.printables.com/@Sarge013)'s imodel https://www.printables.com/model/380486-voron-prime-pellet-bucket
+  - Modified with a cable channel and SBC cutout to allow the UFP sensor to run under it. It was that or builr a cable for it.
+    - STL not yet added to `stls/`.
+![image](https://github.com/0xdreadnaught/v24/assets/983663/d6117291-e1e7-4556-9142-612684c185e6)
+
 - **Dingleberry Bucket**: Catches leaking filament and wipes against a brush.
-  - From [@FunFunBoy](https://www.printables.com/@FunFunBoy)'s imodel https://www.printables.com/model/201999-nozzle-scrubber-with-a-little-bucket-for-voron-24
+  - From [@FunFunBoy](https://www.printables.com/@FunFunBoy)'s model https://www.printables.com/model/201999-nozzle-scrubber-with-a-little-bucket-for-voron-24
   - Brush wipe not yet implemented in the config.
+
+### Sensors
+- **Ultra Fine Partical(UFP) Sensor**: Detect dust and other fine particals.
+  - AITRIP SDS011.
+  - Detection ranges: 0.3-2.5 microns & 2.5-10.0 microns.
+![image](https://github.com/0xdreadnaught/v24/assets/983663/2cec0a13-1a85-48d9-aeb3-0982386c0a87)
+
+
+### Misc Mods
+- **Voron Handles**: Gotta move the thing sometimes.
+  -  [@Jeoje](https://github.com/jeoje)'s handles from https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/jeoje/Sturdy_Handles
+![image](https://github.com/0xdreadnaught/v24/assets/983663/93200d64-7cbb-4c63-8d0d-63b60f6b1bdf)
+
 
 ### Macros
 - **Print Start**: Modified better print_start macro.
