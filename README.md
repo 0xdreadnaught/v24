@@ -132,6 +132,10 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
   - Wipe nozzle off to the right.
   - Kick poop off to the left into the bucket.
   - CLEAN.
+
+https://github.com/0xdreadnaught/v24/assets/983663/5e7ff68e-c6dc-4241-8806-f2f68643afed
+
+    
 - **CLEAN**: Poop wipe.
   - Wipe nozzle a little.
 - **PAUSE**: Modified Ellis' PAUSE macro.
