@@ -37,14 +37,14 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/31aba975-3d73-4e7c-9d0e-4eccf26b360e)
 
 
-- **Nevermore V6**: A carbon filter air purification system (installation pending).
+- **Nevermore V6**: Activated charcoal air purification system (wiring incomplete).
   - [@nevermore3d](https://github.com/nevermore3d)'s infamous filter https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6
 
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/edb0063b-23db-4f00-8894-26dd83046037)
 
-- **Chamber Vortex**: An ongoing project to install dual 5010 5V blowers for thorough chamber circulation.
-  - HEPA and additional charcoal filtration is planned for later. Likely in a remote "pod".
-  - My design, `stls/vortex_blowers_l_r.stl`, use supports.
+- **Chamber Vortex**: An ongoing project to install custom activated charcoal/HEPA filtration.
+  - My "design", `stls/vortex_blowers_l_r.stl`, use supports.
+    - The mount is a remix of [@Sarge013](https://www.printables.com/@Sarge013)'s poop bucket mount.
 
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/9c2ff0d9-7e10-4594-9d81-2052e0d671e6)
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/f0102abf-6125-4458-b997-4bfdd384882c)
