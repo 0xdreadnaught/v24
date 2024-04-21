@@ -56,7 +56,7 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
     - STL not yet added to `stls/`.
 
       ![image](https://github.com/0xdreadnaught/v24/assets/983663/d6117291-e1e7-4556-9142-612684c185e6)
-      ![image](https://github.com/0xdreadnaught/v24/assets/983663/f66c7da4-656d-44da-ba4a-59d506981e7a)
+      ![image](https://github.com/0xdreadnaught/v24/assets/983663/df616af4-ed36-4931-be35-36b6e52c22f8)
 
 
 - **Dingleberry Bucket**: Catches leaking filament and wipes against a brush.
