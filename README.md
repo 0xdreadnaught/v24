@@ -40,7 +40,7 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
 - **Nevermore V6**: A carbon filter air purification system (installation pending).
   - [@nevermore3d](https://github.com/nevermore3d)'s infamous filter https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6
 
-    ![image](https://github.com/0xdreadnaught/v24/assets/983663/1faf9b0b-0e58-40ff-bdf5-45fdc543c81c)
+    ![image](https://github.com/0xdreadnaught/v24/assets/983663/edb0063b-23db-4f00-8894-26dd83046037)
 
 - **Chamber Vortex**: An ongoing project to install dual 5010 5V blowers for thorough chamber circulation.
   - HEPA and additional charcoal filtration is planned for later. Likely in a remote "pod".
