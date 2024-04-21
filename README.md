@@ -55,9 +55,13 @@ These scripts and configs are not intended for public replication but serve as a
 
 
 ### Misc Mods
-- **Voron Handles**: Gotta move the thing sometimes.
+- **Sturdy Handles**: Gotta move the thing sometimes.
   -  [@Jeoje](https://github.com/jeoje)'s handles from https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/jeoje/Sturdy_Handles
 ![image](https://github.com/0xdreadnaught/v24/assets/983663/93200d64-7cbb-4c63-8d0d-63b60f6b1bdf)
+
+- **Rock and Roll**: Easier electronics access.
+
+- **Lilith Handles**: Just the 
 
 
 ### Macros
