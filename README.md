@@ -172,6 +172,28 @@ https://github.com/0xdreadnaught/v24/assets/983663/5e7ff68e-c6dc-4241-8806-f2f68
 
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/7ca6156c-b52f-4b3b-8c0e-9029681c6ade)
 
-
 ## Warning
 Proceed with caution: Implementing configurations or scripts from this repository should be done at your own risk, with a fire extinguisher readily available.
+
+
+# To-Do
+
+## Firmware and Software Enhancements
+- [ ] Refactor pause/resume macros to use Klipper's internal variable system instead of shell commands.
+
+## Sensor Integration and Data Aggregation
+- [ ] Wire up the VOC sensor to the printer.
+- [ ] Develop a script for aggregating VOC sensor data, drawing inspiration from `ufp_check.py`.
+
+## Interface Development
+- [ ] Design and implement a new LCD interface to display UFP/VOC sensor data and provide quick-access printer commands (pause/resume/cancel).
+- [ ] Incorporate a physical switch to toggle between klipper-screen and the new interface.
+
+## Hardware Installation
+- [ ] Pin and connect the Nevermore V6 carbon filter.
+- [ ] Install and wire the vortex blowers, using wago clips to connect to the Octopus board.
+
+## Structural Build-out
+- [ ] Construct and mount the back panel and exhaust system, including the filter pod (can be initially empty).
+- [ ] Design and fabricate an external air filtration pod using 20x20 aluminum extrusions and PC paneling to match the main chassis.
+  - [ ] Ensure the pod includes activated charcoal and HEPA filters, alongside fans for proper airflow.
