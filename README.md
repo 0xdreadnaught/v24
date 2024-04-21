@@ -166,8 +166,7 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
 - **No Back Panel**: The back panel is currently removed to facilitate PLA printing. Other panels let in too much dog hair(yay husky and 2x labs lol).
   - Using a custom mount for the filament couplers for now.
 
-    ![image](https://github.com/0xdreadnaught/v24/assets/983663/5927f0f3-cbe0-4cf4-99f1-f561af22253e)
-
+    ![image](https://github.com/0xdreadnaught/v24/assets/983663/7ca6156c-b52f-4b3b-8c0e-9029681c6ade)
 
 
 ## Warning
