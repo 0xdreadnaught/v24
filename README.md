@@ -1,4 +1,4 @@
-# Voron 2.6783 - Lilith
+# Voron 2.6873 - Lilith
 
 This repository contains configuration backups and custom scripts for my Voron 2.4, dubbed Lilith. 
 Lilith, the evil daughter of Diablo, parallels 3D printing's dark allure—both look cool and may burn your house down in the middle of the night.
