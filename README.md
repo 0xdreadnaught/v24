@@ -11,8 +11,7 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
 - **Configs**: Contains Klipper configuration files for different printer components.
   - The configuration is divided into supplementary files for easier management and readability.
 - **Scripts**: Includes various utility scripts used for enhanced printer operations.
-  - Utilizes shell commands and direct MCU socket communication for refined toolhead pathing during resume:
-    - Moves X, then Y, then Z to prevent nozzle collisions—unlike Ellis' direct XYZ approach.
+  - Currently deprecated.
 - **Temporary Data**: Uses `/tmp/toolhead_position.txt` to store the current toolhead position, critical for custom resume logic.
   - Created by `save_position.sh` if it doesn't exist. 
 
