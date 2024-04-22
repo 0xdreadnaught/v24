@@ -6,16 +6,6 @@ Lilith, the evil daughter of Diablo, parallels 3D printing's dark allure—both 
 These scripts and configs are not intended for public replication but serve as a cautionary showcase of what not to do with your Voron 2.4.
 The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining from Siboor is the OS on the BTT-pi.
 
-## Structure
-
-- **Configs**: Contains Klipper configuration files for different printer components.
-  - The configuration is divided into supplementary files for easier management and readability.
-- **Scripts**: Includes various utility scripts used for enhanced printer operations.
-  - Currently deprecated.
-- **Temporary Data**: Uses `/tmp/toolhead_position.txt` to store the current toolhead position, critical for custom resume logic.
-  - Created by `save_position.sh` if it doesn't exist. 
-
-## Key Components
 
 ### Fans
 - **Stepper Driver Cooling**: Employs a 5010 5V blower to cool the Octopus Pro stepper drivers.
