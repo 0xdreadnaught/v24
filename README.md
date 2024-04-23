@@ -54,7 +54,7 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
 - **Dingleberry Bucket**: Catches leaking filament and wipes against a brush.
   - From [@FunFunBoy](https://www.printables.com/@FunFunBoy)'s model https://www.printables.com/model/201999-nozzle-scrubber-with-a-little-bucket-for-voron-24
 
-    ![image](https://github.com/0xdreadnaught/v24/assets/983663/f04e88dd-ce80-43f7-a9d1-00ca95408fe7)
+    ![image](https://github.com/0xdreadnaught/v24/assets/983663/73664480-ffb9-4918-9376-24f3002caa03)
 
 
 ### Sensors
