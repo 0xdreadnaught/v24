@@ -48,8 +48,7 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
     - STL not yet added to `stls/`.
 
       ![image](https://github.com/0xdreadnaught/v24/assets/983663/386c0f0d-882d-420e-afe4-1ec4d18009be)
-      ![image](https://github.com/0xdreadnaught/v24/assets/983663/df616af4-ed36-4931-be35-36b6e52c22f8)
-
+      ![image](https://github.com/0xdreadnaught/v24/assets/983663/1681bb32-2ae9-43b6-b158-0f37bb4d921e)
 
 - **Dingleberry Bucket**: Catches leaking filament and wipes against a brush.
   - From [@FunFunBoy](https://www.printables.com/@FunFunBoy)'s model https://www.printables.com/model/201999-nozzle-scrubber-with-a-little-bucket-for-voron-24
