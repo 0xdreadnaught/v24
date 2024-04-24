@@ -140,16 +140,16 @@ https://github.com/0xdreadnaught/v24/assets/983663/5e7ff68e-c6dc-4241-8806-f2f68
   - Set nozzle to specified temp, 150 if not specified.
     
 ### Scripts
-- **save_toolhead_pos.sh**: Save the current XYZ location for the PAUSE macro.
+- **save_toolhead_pos.sh**(Deprecated): Save the current XYZ location for the PAUSE macro.
   - Ensure `/tmp/toolhead_position.txt` exists.
   - echo args $1-$3, X,Y,Z to `toolhead_position.txt`.
     - The need for this arose from Klipper not wanting to pass custom variables between macros and I wanted a safer RESUME path.
-- **restore_toolhead_pos.sh**: Move the toolhead back to the original position.
+- **restore_toolhead_pos.sh**(Deprecated): Move the toolhead back to the original position.
   - Gets the X,Y,Z from `toolhead_position.txt`.
   - Sends `G90` to the printer's MCU socket file, `/tmp/printer/mcu_socket` for me, somtimes it's `/tmp/printer`.
   - Sends the X, then Y moves.
     - Handling Z this way caused random problems so I have that handled in the macro when it turns the nozzle back on.
-- **wipe_toolhead_pos.sh**: Purge `toolhead_position.txt` contents.
+- **wipe_toolhead_pos.sh**(Deprecated): Purge `toolhead_position.txt` contents.
   - Just minor security considering shell command access is risky.
 - **ufp_check.py**: Get the UFP sensor data.
   - Still WIP since there's no native way to add this data into mainsail. Will likely build a Klipper-Screen replacement.
