@@ -169,7 +169,7 @@ Proceed with caution: Implementing configurations or scripts from this repositor
 # To-Do
 
 ## Firmware and Software Enhancements
-- [ ] Refactor pause/resume macros to use Klipper's internal variable system instead of shell commands.
+- [x] Refactor pause/resume macros to use Klipper's internal variable system instead of shell commands.
 
 ## Sensor Integration and Data Aggregation
 - [ ] Wire up the VOC sensor to the printer.
