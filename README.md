@@ -96,6 +96,11 @@ The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining f
 
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/b8232f8d-44af-474c-98c4-1df60c041135)
 
+- **Motion Minder**: Linear rail travel distance tracking.
+  - [@rodrigo2019](https://github.com/rodrigo2019)'s project https://github.com/rodrigo2019/motion_minder
+
+  ![image](https://github.com/0xdreadnaught/v24/assets/983663/1876805f-c70c-47a3-985d-bb915d6dfb6c)
+  
 
 ### Macros
 - **Print Start**: Modified better print_start macro.
