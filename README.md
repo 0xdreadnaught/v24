@@ -1,8 +1,6 @@
 # Voron 2.6873 - Lilith
 
-This repository contains configuration backups and custom scripts for my Voron 2.4, dubbed Lilith. 
-Lilith, the evil daughter of Diablo, parallels 3D printing's dark allure—both look cool and may burn your house down in the middle of the night.
-
+This repository contains configuration backups and custom scripts for my Voron 2.4.
 These scripts and configs are not intended for public replication but serve as a cautionary showcase of what not to do with your Voron 2.4.
 The base printer is a Siboor v2.4r2 Aug(Dec refresh). The only thing remaining from Siboor is the OS on the BTT-pi.
 
@@ -145,6 +143,10 @@ https://github.com/0xdreadnaught/v24/assets/983663/5e7ff68e-c6dc-4241-8806-f2f68
   - Set nozzle to specified temp, 150 if not specified.
     
 ### Scripts
+- **ufp_check.py**: Get the UFP sensor data.
+  - Still WIP since there's no native way to add this data into mainsail. Will likely build a Klipper-Screen replacement.
+
+    ![image](https://github.com/0xdreadnaught/v24/assets/983663/598c0297-4c00-45eb-9efd-e8cbdd2782bd)
 - **save_toolhead_pos.sh**(Deprecated): Save the current XYZ location for the PAUSE macro.
   - Ensure `/tmp/toolhead_position.txt` exists.
   - echo args $1-$3, X,Y,Z to `toolhead_position.txt`.
@@ -156,16 +158,19 @@ https://github.com/0xdreadnaught/v24/assets/983663/5e7ff68e-c6dc-4241-8806-f2f68
     - Handling Z this way caused random problems so I have that handled in the macro when it turns the nozzle back on.
 - **wipe_toolhead_pos.sh**(Deprecated): Purge `toolhead_position.txt` contents.
   - Just minor security considering shell command access is risky.
-- **ufp_check.py**: Get the UFP sensor data.
-  - Still WIP since there's no native way to add this data into mainsail. Will likely build a Klipper-Screen replacement.
 
-    ![image](https://github.com/0xdreadnaught/v24/assets/983663/598c0297-4c00-45eb-9efd-e8cbdd2782bd)
 
 ### Quirks
 - **No Back Panel**: The back panel is currently removed to facilitate PLA printing. Other panels let in too much dog hair(yay husky and 2x labs lol).
   - Using a custom mount for the filament couplers for now.
 
     ![image](https://github.com/0xdreadnaught/v24/assets/983663/7ca6156c-b52f-4b3b-8c0e-9029681c6ade)
+
+- **Cartographer Shorts**: The Cartographer3d will short if the sensor collides with the nozzle brush.
+  - Adding a custom bed mesh in the slicer makes it quite manageable.
+  - Sometimes the fault instantly halts the print, other times it dies minutes later, sometimes it's completely fine. Best to just not let it happen.
+ 
+    ![image](https://github.com/0xdreadnaught/v24/assets/983663/79eed02c-64b1-4f54-8954-75681b3608a7)
 
 ## Warning
 Proceed with caution: Implementing configurations or scripts from this repository should be done at your own risk, with a fire extinguisher readily available.
